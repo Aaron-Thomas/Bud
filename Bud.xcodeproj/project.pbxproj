@@ -20,6 +20,7 @@
 		40072A752282199C00BA4458 /* RoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40072A742282199C00BA4458 /* RoundedBtn.swift */; };
 		40072A7722821C4200BA4458 /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40072A7622821C4200BA4458 /* UIImageViewExt.swift */; };
 		40072A7922821EA400BA4458 /* RoundedBorderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40072A7822821EA400BA4458 /* RoundedBorderImageView.swift */; };
+		401BCA3D228BF28D00C75DC6 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401BCA3C228BF28D00C75DC6 /* CurrencyFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		40072A742282199C00BA4458 /* RoundedBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBtn.swift; sourceTree = "<group>"; };
 		40072A7622821C4200BA4458 /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
 		40072A7822821EA400BA4458 /* RoundedBorderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderImageView.swift; sourceTree = "<group>"; };
+		401BCA3C228BF28D00C75DC6 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				40072A6C2282152F00BA4458 /* Extensions */,
 				40072A6B2282152900BA4458 /* Codables */,
+				401BCA3B228BF27F00C75DC6 /* Custom */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +178,14 @@
 			children = (
 				40072A742282199C00BA4458 /* RoundedBtn.swift */,
 				40072A7822821EA400BA4458 /* RoundedBorderImageView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		401BCA3B228BF27F00C75DC6 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				401BCA3C228BF28D00C75DC6 /* CurrencyFormatter.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -286,6 +297,7 @@
 				40072A622282068800BA4458 /* Transactions+TableViewDelegate.swift in Sources */,
 				40072A40228205FA00BA4458 /* Transactions.swift in Sources */,
 				40072A6E2282153C00BA4458 /* UIViewControllerExt.swift in Sources */,
+				401BCA3D228BF28D00C75DC6 /* CurrencyFormatter.swift in Sources */,
 				40072A6A22820D5D00BA4458 /* Transaction.swift in Sources */,
 				40072A71228215AA00BA4458 /* ErrorView.swift in Sources */,
 				40072A6522820C4900BA4458 /* TransactionCell.swift in Sources */,

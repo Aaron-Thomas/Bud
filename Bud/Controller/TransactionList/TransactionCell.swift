@@ -29,18 +29,7 @@ class TransactionCell: UITableViewCell {
         }
         
         guard let value = transactionData.amount?.value, let currencyIso = transactionData.amount?.currency_iso else { return }
-        amountLbl.text = formatValueWithCurrencyIso(value: value, currencyIso: currencyIso)
-    }
-    
-    func formatValueWithCurrencyIso(value: Double, currencyIso: String) -> String {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = NumberFormatter.Style.currencyAccounting
-        formatter.locale = Locale.current
-        formatter.currencyCode = currencyIso
-        
-        guard let formattedString = formatter.string(from: NSNumber(value: value)) else { return "" }
-    
-        return formattedString
+        amountLbl.text = CurrencyFormatter.shared.formatValueFromCurrencyIso(value: value, currencyIso: currencyIso)
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
